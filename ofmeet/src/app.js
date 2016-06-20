@@ -1868,3 +1868,8 @@ function getRoomJidFromBookmarkUrl(id)
 	
 	return jid;
 }
+
+function ntop() {
+    var hostname = window.location.hostname;
+    window.open("http://" + hostname + ":3000", '_blank');
+}

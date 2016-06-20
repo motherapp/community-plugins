@@ -150,7 +150,7 @@ var ContactList = (function (my) {
         
         } else {
         
-        	avatar.src = "//www.gravatar.com/avatar/" + id + "?d=mm&size=30";
+                avatar.src = "/ofmeet/images/default.png";
         }
         return avatar;
     }

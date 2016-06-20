@@ -149,10 +149,8 @@ var Avatar = (function(my) {
         if(id === connection.emuc.myroomjid || !id) {
             id = SettingsMenu.getUID();
         }
-                
-        return 'https://www.gravatar.com/avatar/' +
-            MD5.hexdigest(id.trim().toLowerCase()) +
-            "?d=mm&size=" + (size || "30");
+        
+        return '/ofmeet/images/default.png'
     }
 
     return my;
