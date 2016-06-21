@@ -43,8 +43,9 @@ jar:
      [copy] Copying 529 files to /app/allen/community-plugins/ofmeet/build/jar
      [copy] Copying 61 files to /app/allen/community-plugins/ofmeet/build/jar/lib
      [copy] Copying 67 files to /app/allen/community-plugins/ofmeet/build/jar
+      [jar] Building jar: /app/allen/community-plugins/openfire_4_0_2/target/openfire/plugins/remotecontrol.zip
       [jar] Building jar: /app/allen/community-plugins/openfire_4_0_2/target/openfire/plugins/ofmeet.jar
    [delete] Deleting directory /app/allen/community-plugins/ofmeet/build
 
 BUILD SUCCESSFUL
-Total time: 8 seconds
+Total time: 17 seconds
